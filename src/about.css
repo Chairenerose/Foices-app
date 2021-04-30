@@ -7,26 +7,28 @@
     right: 10px;
     list-style: none;
 
+
 }
 
 .menu-bar ul li {
     margin-right: 10px;
     letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+   
    
 }
 
 .menu-bar li a {
      color: #340404;
      text-decoration: none;
+    
 }
 
 .menu-bar li a:hover {
     color: #6c0405;
 }
 
-.menu-bar li a {
-     color: #340404;
-}
+
 
 .content {
     margin-top: 50px;
@@ -56,12 +58,16 @@
 .ilaria-bio p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: #340404;
+    color: #340404b4;
+    text-transform: uppercase;
 }
 
 .ilaria-bio p  span {
-    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #340404;
     
 }
 
@@ -73,17 +79,21 @@
 }
 
 .chairene-bio p {
-    text-align: center;
+  text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: #340404;
+    color: #340404b4;
+    text-transform: uppercase;
     
     
 
 }
 
 .chairene-bio p  span {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
+   font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #340404;
 }
 .ilaria-bio img {
     width: 400px;

@@ -12,6 +12,7 @@
 .menu-bar ul li {
     margin-right: 10px;
     letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
    
 }
 
@@ -39,17 +40,20 @@
  }
 
 .biography-button {
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 50%;
     text-transform: uppercase;
     border: 0px #6c0405;
     background: #6c0405;
     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
 .biography-button p {
-  width: 70px;
+  width: 90px;
   margin-top: 10px;
 }
 
@@ -63,108 +67,68 @@
 
 }
 
-
-.may-cover img {
-    width: 400px;
-    height: 600px;
+.homevideo {
     margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
     display: block;
-    border-radius: 20%;
-    
-    
-}
-
-.content-introspect #header {
-    text-align: center;
-    color: #340404; 
-    letter-spacing: 3px;
-    font-family: 'Playfair Display', serif;
-
-}
-
-.introspect-one {
-    color: #340404;
-   
-}
-
-.introspect-one h5 {
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    width: 50%;
-}
-
-.introspect-two h5 {
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    width: 50%;
-}
-
-.introspect-two {
-    color: #340404;
-}
-.content-sociopolitical #header {
-    text-align: center;
-    color: #340404; 
-    letter-spacing: 3px;
-    font-family: 'Playfair Display', serif;
-
-}
-
-.sociopolitical-one {
-    color: #340404;
-}
-
-.sociopolitical-one h5 {
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    width: 50%;
-}
-
-.sociopolitical-two h5 {
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    width: 50%;
-}
-.sociopolitical-two {
-    color: #340404;
-}
-
-#author-title {
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#author-title a {
-    margin-left: 5px;
-    color: #6c0405;
-}
-
-.article-tag {
-    background-color: #6c0405;
-    width: 110px;
-    border-radius: 5px;
-    padding-left: 5px;
+    margin-top: 50px;
     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
-    font-family: 'Quicksand', sans-serif;
+}
+
+.content hr {
+    border-width: 1px;
+     background-color: #340404;
+}
+
+.articles-collage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.articles-collage .row {
+   max-width: 600px;
+    margin-bottom: 50px;
+    
+   
+  
+}
+
+
+.articles-collage .col-6 img {
+    width: 250px;
+    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
     
 }
 
-.article-tag a {
-    color: #fff;
+.articles-collage .col-6 h5 {
+    width: 200px;
+    font-family: 'Playfair Display', serif;
+     color: #340404;
 }
 
-hr {
+
+.article-date {
+    font-family: 'Quicksand', sans-serif;
+    color: #34040475;
+}
+
+.read-more-tag {
     background-color: #6c0405;
+    width: 90px;
+    border-radius: 2px;
+     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    margin-bottom: 10px;
 }
-.text {
-    font-family: 'Times New Roman', Times, serif;
+
+.read-more-tag a {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5px;
 }
+
+
+
+
 .commitment {
     background-color: #340404;
     color: #fff;

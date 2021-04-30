@@ -12,6 +12,7 @@
 .menu-bar ul li {
     margin-right: 10px;
     letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
    
 }
 
@@ -22,4 +23,51 @@
 
 .menu-bar li a:hover {
     color: #6c0405;
+}
+
+.title h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #340404;
+}
+
+.articles-collage .row {
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.articles-collage .col-6 #image-beauty {
+    width: 300px;
+    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    
+}
+
+.articles-collage .col-6 #image-hyper {
+    height: 300px;
+    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+}
+
+.articles-collage h5 {
+    width: 200px;
+    font-family: 'Playfair Display', serif;
+     color: #340404;
+}
+
+.article-date {
+    font-family: 'Quicksand', sans-serif;
+    color: #34040475;
+}
+
+.read-more-tag {
+    background-color: #6c0405;
+    width: 90px;
+    border-radius: 2px;
+     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+}
+
+.read-more-tag a {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5px;
 }

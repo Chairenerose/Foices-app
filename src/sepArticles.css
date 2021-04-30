@@ -1,0 +1,55 @@
+.menu-bar {
+    box-shadow: rgb(216, 206, 206) 0px 1px;
+    width: 100%;
+}
+.menu-bar ul {
+    display: flex;
+    right: 10px;
+    list-style: none;
+
+}
+
+.menu-bar ul li {
+    margin-right: 10px;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+.menu-bar li a {
+     color: #340404;
+     text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    color: #6c0405;
+}
+
+.content .title {
+     text-align: center;
+    color: #340404; 
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.title-date {
+    list-style: none;
+    color:#340404 ;
+   
+}
+.title-date #author-title {
+    display: flex;
+}
+
+#author-title a {
+    color: #6c0405;
+}
+
+.title-date #article-date {
+    color: rgb(179, 158, 158);
+}
+
+hr {
+    background-color: #6c0405;
+}
