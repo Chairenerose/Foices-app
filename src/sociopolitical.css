@@ -1,0 +1,25 @@
+.menu-bar {
+    box-shadow: rgb(216, 206, 206) 0px 1px;
+    width: 100%;
+}
+.menu-bar ul {
+    display: flex;
+    right: 10px;
+    list-style: none;
+
+}
+
+.menu-bar ul li {
+    margin-right: 10px;
+    letter-spacing: 3px;
+   
+}
+
+.menu-bar li a {
+     color: #340404;
+     text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    color: #6c0405;
+}

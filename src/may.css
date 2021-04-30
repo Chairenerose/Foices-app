@@ -1,0 +1,135 @@
+.menu-bar {
+    box-shadow: rgb(216, 206, 206) 0px 1px;
+    width: 100%;
+}
+.menu-bar ul {
+    display: flex;
+    right: 10px;
+    list-style: none;
+
+}
+
+.menu-bar ul li {
+    margin-right: 10px;
+    letter-spacing: 3px;
+   
+}
+
+.menu-bar li a {
+     color: #340404;
+     text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    color: #6c0405;
+}
+
+.content .title {
+     text-align: center;
+    color: #340404; 
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.may-cover img {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    border-radius: 20%;
+    
+    
+}
+
+.content-introspect #header {
+    text-align: center;
+    color: #340404; 
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.introspect-one {
+    color: #340404;
+   
+}
+
+.introspect-one h5 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 50%;
+}
+
+.introspect-two h5 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 50%;
+}
+
+.introspect-two {
+    color: #340404;
+}
+.content-sociopolitical #header {
+    text-align: center;
+    color: #340404; 
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.sociopolitical-one {
+    color: #340404;
+}
+
+.sociopolitical-one h5 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 50%;
+}
+
+.sociopolitical-two h5 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 50%;
+}
+.sociopolitical-two {
+    color: #340404;
+}
+
+#author-title {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#author-title a {
+    margin-left: 5px;
+    color: #6c0405;
+}
+
+.article-tag {
+    background-color: #6c0405;
+    width: 110px;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.article-tag a {
+    color: #fff;
+}
+
+hr {
+    background-color: #6c0405;
+}
+.text {
+    font-family: 'Times New Roman', Times, serif;
+}

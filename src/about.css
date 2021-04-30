@@ -1,0 +1,105 @@
+.menu-bar {
+    box-shadow: rgb(216, 206, 206) 0px 1px;
+    width: 100%;
+}
+.menu-bar ul {
+    display: flex;
+    right: 10px;
+    list-style: none;
+
+}
+
+.menu-bar ul li {
+    margin-right: 10px;
+    letter-spacing: 3px;
+   
+}
+
+.menu-bar li a {
+     color: #340404;
+     text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    color: #6c0405;
+}
+
+.menu-bar li a {
+     color: #340404;
+}
+
+.content {
+    margin-top: 50px;
+}
+.content #line1 {
+    width: 25%;
+    border-width: 1px;
+    border-color: #9c5859;
+
+}
+
+.content #line2 {
+    width: 40%;
+    border-width: 1px;
+    border-color: #6c0405;
+    margin-bottom: 40px;
+
+}
+
+.ilaria-bio h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #340404;
+   
+}
+
+.ilaria-bio p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #340404;
+}
+
+.ilaria-bio p  span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    
+}
+
+.chairene-bio h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #340404;
+    margin-top: 70px;
+}
+
+.chairene-bio p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #340404;
+    
+    
+
+}
+
+.chairene-bio p  span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+.ilaria-bio img {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.chairene-bio img {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
