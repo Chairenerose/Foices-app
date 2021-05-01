@@ -274,10 +274,11 @@ hr {
 
      .title h1 {
         font-size: 30px;
+        margin-top: 80px;
     }
 
     .content .title {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     .may-cover img {
