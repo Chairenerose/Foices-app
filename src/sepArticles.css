@@ -259,4 +259,10 @@ hr {
         margin-bottom: 20px;
     }
 
+    .trigger-tag {
+        position: relative;
+        right: 0px;
+        margin-left: 35px;
+    }
+
 }
