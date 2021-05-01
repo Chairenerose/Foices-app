@@ -243,6 +243,7 @@ hr {
 @media  (max-width: 800px) {
     .hamburger {
         display: flex;
+        margin-bottom: 90px;
     }
 
     .nav-links {
@@ -274,7 +275,7 @@ hr {
 
      .title h1 {
         font-size: 30px;
-        margin-top: 80px;
+      
     }
 
     .content .title {
