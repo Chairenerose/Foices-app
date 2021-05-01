@@ -108,14 +108,14 @@
 .introspect-one h5 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 200px;
     width: 50%;
 }
 
 .introspect-two h5 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 200px;
     width: 50%;
 }
 
@@ -137,7 +137,7 @@
 .sociopolitical-one h5 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 200px;
     width: 50%;
     margin-top: 40px;
 }
@@ -145,7 +145,7 @@
 .sociopolitical-two h5 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 200px;
     width: 50%;
 }
 .sociopolitical-two {
@@ -271,4 +271,53 @@ hr {
         display: table-column;
         padding-top: 20px;
     }
+
+     .title h1 {
+        font-size: 30px;
+    }
+
+    .content .title {
+        margin-top: 80px;
+    }
+
+    .may-cover img {
+        height: 500px;
+        width: 300px;
+    }
+
+    .text-image #reflectimage1 {
+        width: 400px;
+    }
+    
+
+.text-image #reflectimage2 {
+    width: 400px;
+
+}
+
+.text-image #sociopolitical1 {
+    width: 300px;
+  
+}
+
+.text-image #hypersex1 {
+    width: 300px;
+ 
+}
+
+.text-image #hypersex2 {
+    width: 400px;
+   
+}
+
+.text-image #hypersex3 {
+    width: 300px;
+  
+}
+
+.text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 }

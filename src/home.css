@@ -187,6 +187,8 @@
     border-radius: 5px;
     padding: 5px;
     font-family: 'Quicksand', sans-serif;
+    display: none;
+    
 }
 
 .commitment h4 {
@@ -202,6 +204,32 @@
 .commitment span {
     font-weight: 900;
 }
+
+.commitment.active {
+    display: block;
+   
+}
+
+.commitmentbutton {
+  background-color: rgb(179, 158, 158);  
+  color: #340404;
+  font-family: 'Times New Roman', Times, serif;
+  border: solid 0px  ;
+  margin-bottom: 20px;
+  font-size: 15px;
+   border-radius: 50%;
+   width: 110px;
+   height: 90px;
+   padding-top: 10px;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.commitmentbutton:hover {
+    background-color: #340404;
+    color: #fff;
+}
+
+
 
 
 
@@ -236,4 +264,46 @@
         display: table-column;
         padding-top: 20px;
     }
+
+    .titlepage h1 {
+        font-size: 40px;
+    }
+
+    .titlepage h3 {
+        font-size: 20px;
+       justify-content: center;
+       align-content: center;
+       
+    }
+
+    .biography-button {
+        font-size: 10px;
+    }
+    .biography-button p {
+     width: 60px;
+     }
+
+     .homevideo {
+         width: 350px;
+     }
+
+     .articles-collage .row{
+     flex-direction: column;
+     }
+
+     .articles-collage .col-6 h5 {
+         font-size: 15px;
+     }
+
+     .articles-collage .col-6 img {
+         width: 200px;
+     }
+
+     .article-date {
+        font-size: 15px;
+     }
+
+     .read-more-tag a {
+         font-size: 15px;
+     }
 }

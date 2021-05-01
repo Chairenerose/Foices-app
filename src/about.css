@@ -177,10 +177,29 @@
         text-align: center;
     }
 
-   
-
      .nav-links.active {
         display: table-column;
         padding-top: 20px;
+    }
+
+    .ilaria-bio h2 {
+        font-size: 30px;
+    }
+
+    .chairene-bio h2 {
+        font-size: 30px;
+    }
+    .chairene-bio img {
+        width: 300px;
+    }
+    .ilaria-bio img {
+        width: 300px;
+    }
+    .ilaria-bio p {
+        text-transform:none;
+    }
+
+    .chairene-bio p {
+        text-transform: none;
     }
 }

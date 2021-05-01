@@ -214,4 +214,49 @@ hr {
         display: table-column;
         padding-top: 20px;
     }
+
+    .content .title h1 {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+
+    .article-text {
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+        .text-image #reflectimage1 {
+        width: 400px;
+    }
+    
+
+    .text-image #reflectimage2 {
+    width: 400px;
+
+    }
+
+    .text-image #sociopolitical1 {
+    width: 300px;
+  
+    }
+
+    .text-image #hypersex1 {
+    width: 300px;
+ 
+    }   
+
+    .text-image #hypersex2 {
+    width: 400px;
+   
+    }
+
+    .text-image #hypersex3 {
+    width: 300px;
+  
+    }
+    .content .title h1 {
+        margin-bottom: 20px;
+    }
+
 }
