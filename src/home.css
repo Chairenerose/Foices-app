@@ -1,28 +1,71 @@
+
+
 .menu-bar {
     box-shadow: rgb(216, 206, 206) 0px 1px;
-    width: 100%;
-}
-.menu-bar ul {
     display: flex;
-    right: 10px;
-    list-style: none;
-
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
 }
 
-.menu-bar ul li {
+
+.nav-links {
+   display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+   list-style: none;
     margin-right: 10px;
     letter-spacing: 3px;
     font-family: 'Quicksand', sans-serif;
-   
+    margin-bottom: 10px;
 }
 
-.menu-bar li a {
-     color: #340404;
+.nav-links li a {
+    color: #340404;
      text-decoration: none;
+
 }
 
 .menu-bar li a:hover {
     color: #6c0405;
+}
+
+.menu-bar li .contact-tag {
+    background-color: #6c0405;
+    color: #fff;
+    width: 110px;
+   box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    padding-left: 5px;
+    
+}
+
+.menu-bar li .contact-tag:hover {
+    background-color: #8f7676b9;
+    color: #340404;
+}
+
+.hamburger {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+
+
+.hamburger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #340404;
 }
 
 
@@ -31,11 +74,13 @@
     color: #340404; 
     margin-top: 50px;
     font-family: 'Playfair Display', serif;
+   
     
 }
 
  .titlepage h1 {
     font-size: 80px;
+    margin-bottom: 30px;
     
  }
 
@@ -46,15 +91,17 @@
     border: 0px #6c0405;
     background: #6c0405;
     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
-    margin-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-top: 30px;
+
+    padding-left: 25px;
+    padding-right: 25px;
     
 }
 
 .biography-button p {
-  width: 90px;
+  width: 80px;
   margin-top: 10px;
+  
 }
 
 .biography-button a {
@@ -88,11 +135,13 @@
 .articles-collage .row {
    max-width: 600px;
     margin-bottom: 50px;
-    
+    margin-top: 30px;
    
-  
 }
 
+.articles-collage .col-6 {
+    margin-bottom: 40px;
+}
 
 .articles-collage .col-6 img {
     width: 250px;
@@ -104,6 +153,7 @@
     width: 200px;
     font-family: 'Playfair Display', serif;
      color: #340404;
+     margin-top: 10px;
 }
 
 
@@ -151,4 +201,39 @@
 
 .commitment span {
     font-weight: 900;
+}
+
+
+
+@media  (max-width: 800px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 1000;
+
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+   
+
+     .nav-links.active {
+        display: table-column;
+        padding-top: 20px;
+    }
 }

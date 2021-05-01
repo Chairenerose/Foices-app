@@ -11,13 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/sociopolitical.css">
-
-    <title>Sociopolitical - F-OICE-S</title>
+    <link rel="stylesheet" href="./src/contact.css">
+    <title>Contact F-OICE-S</title>
 </head>
 
 <body>
-
     <div class="container">
         <div class="menu-bar">
             <a href="#" class="hamburger">
@@ -31,44 +29,38 @@
                 <li><a href="contact.html" class="contact-tag">Contact</a></li>
             </ul>
         </div>
-        <div class="title">
-            <h1>Sociopolitical</h1>
-        </div>
 
-        <div class="articles-collage">
-            <div class="row">
-                <div class="col-6">
-                    <img id="image-beauty" src="./Images/Lovethy.png">
-                    <h5>Self Improvement or Self Sabotage</h5>
-                    <div class="article-date">
-                        <p>01 May 2021 </p>
-                    </div>
-                    <div class="read-more-tag">
-                        <a href="sociopolitical1.html">Read More</a>
-                    </div>
-
-
-                </div>
-                <div class="col-6">
-                    <img id="image-hyper" src="./Images/hypersexualisation1.png">
-                    <h5>The Mutually Constitutive Relationship Between Hypersexualisation and Racism</h5>
-                    <div class="article-date">
-                        <p>01 May 2021 </p>
-                    </div>
-                    <div class="read-more-tag">
-                        <a href="sociopolitical2.html">Read More</a>
-                    </div>
-
-
-
-                </div>
+        <div class="content">
+            <div class="title">
+                <h1>Get In Touch</h1>
+                <h2>We Would Love to Here Your F-OICE-S</h2>
             </div>
 
+            <div class="message-form">
+                <h5>Please Don't Hesitate to Get in Touch With Us. We Would Love to Hear From You</h5>
+                <form action="https://formspree.io/f/mknkobpg" method="post">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-message">
+                        <p>Share your F-O-I-C-E:</p>
+                        <textarea name="Text1" cols="40" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
         </div>
-
-
     </div>
+
     <script src="src/index.js"></script>
+
 </body>
 
 </html>

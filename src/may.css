@@ -1,28 +1,71 @@
+
+
 .menu-bar {
     box-shadow: rgb(216, 206, 206) 0px 1px;
-    width: 100%;
-}
-.menu-bar ul {
     display: flex;
-    right: 10px;
-    list-style: none;
-
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
 }
 
-.menu-bar ul li {
+
+.nav-links {
+   display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+   list-style: none;
     margin-right: 10px;
     letter-spacing: 3px;
     font-family: 'Quicksand', sans-serif;
-   
+    margin-bottom: 10px;
 }
 
-.menu-bar li a {
-     color: #340404;
+.nav-links li a {
+    color: #340404;
      text-decoration: none;
+
 }
 
 .menu-bar li a:hover {
     color: #6c0405;
+}
+
+.menu-bar li .contact-tag {
+    background-color: #6c0405;
+    color: #fff;
+    width: 110px;
+   box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    padding-left: 5px;
+    
+}
+
+.menu-bar li .contact-tag:hover {
+    background-color: #8f7676b9;
+    color: #340404;
+}
+
+.hamburger {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+
+
+.hamburger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #340404;
 }
 
 .content .title {
@@ -40,7 +83,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     display: block;
-    border-radius: 20%;
+    
     
     
 }
@@ -50,11 +93,15 @@
     color: #340404; 
     letter-spacing: 3px;
     font-family: 'Playfair Display', serif;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
 
 }
 
 .introspect-one {
     color: #340404;
+    margin-top: 50px;
    
 }
 
@@ -92,6 +139,7 @@
     text-transform: uppercase;
     font-weight: 200;
     width: 50%;
+    margin-top: 40px;
 }
 
 .sociopolitical-two h5 {
@@ -128,9 +176,99 @@
     color: #fff;
 }
 
+.trigger-tag {
+    background-color: #6c0405;
+    width: 130px;
+    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding-left: 5px;
+}
+
+
 hr {
     background-color: #6c0405;
 }
 .text {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.text a {
+   color: #6c0405;
+}
+
+.text-image p {
+    text-align: center;
+
+}
+.text-image #reflectimage1 {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+   
+}
+
+.text-image #reflectimage2 {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.text-image #sociopolitical1 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #hypersex1 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #hypersex2 {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #hypersex3 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media  (max-width: 800px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 1000;
+
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+   
+
+     .nav-links.active {
+        display: table-column;
+        padding-top: 20px;
+    }
 }
