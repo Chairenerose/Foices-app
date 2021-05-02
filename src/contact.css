@@ -166,6 +166,6 @@
 @media  (max-width: 330px) {
 
     .content .title h2 {
-        font-size: 15px;
+        max-width: 100px;
     }
 }
