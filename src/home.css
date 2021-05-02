@@ -308,3 +308,10 @@
          font-size: 15px;
      }
 }
+
+
+@media (max-width: 650px) {
+     .homevideo {
+         width: 300px;
+     }
+}
