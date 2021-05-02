@@ -151,6 +151,7 @@
 
     .content .title h2 {
         font-size: 20px;
+         max-width: 100px;
     }
 
     .message-form h5 {
