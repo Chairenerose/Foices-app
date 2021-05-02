@@ -151,7 +151,6 @@
 
     .content .title h2 {
         font-size: 20px;
-         max-width: 100px;
     }
 
     .message-form h5 {
@@ -164,9 +163,10 @@
     }
 }
 
-@media  (max-width: 330px) {
+@media  (max-width: 400px) {
 
     .content .title h2 {
-        max-width: 100px;
+        max-width: 130px;
+        text-align: center;
     }
 }
