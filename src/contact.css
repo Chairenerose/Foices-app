@@ -96,7 +96,9 @@
 }
 
 
-
+.message-form #email {
+    margin-top: 20px;
+}
 .message-form input {
     border: solid #340404 2px;
     border-radius: 5px;
