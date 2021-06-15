@@ -66,6 +66,98 @@
     background-color: #340404;
 }
 
+ .title  {
+    text-align: center;
+    color: #340404; 
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+   
+    
+}
+
+.title #disclaimer {
+    font-style: italic;
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+
+.title #disclaimer  a {
+    color: #6c0405;
+}
+
+.resources-themes {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.resources-themes .lgbtq-resources {
+    margin-right: 20px;
+}
+
+.resources-themes button {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #6c0405;
+    box-shadow: 2px 2px 2px #340404;
+    border: 0px;
+}
+
+.resources-themes button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.resources-themes button a:active {
+    color: #fff;
+}
+
+.resource-list h1 {
+    text-align: center;
+    color: #340404; 
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.resource-links{
+    color: #340404;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.resource-links li {
+    margin-top: 10px;
+}
+
+.resource-links a {
+    color: #6c0405;
+    font-style: italic;
+}
+
+.resource-links a:active {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 800px) {
@@ -98,5 +190,23 @@
      .nav-links.active {
         display: table-column;
         padding-top: 20px;
+    }
+
+    .title {
+        margin-top: 100px;
+    }
+
+
+    .resource-list h1 {
+        margin-top: 100px;
+    }
+
+    .resources-themes {
+        flex-direction: column;
+    }
+
+    .resources-themes .lgbtq-resources {
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 }
