@@ -114,13 +114,69 @@
 
 }
 
-.homevideo {
-    margin: 0 auto;
-    display: block;
-    margin-top: 50px;
-    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+.creative-spotlight {
+    text-align: center;
+    margin-top: 100px;
+    color: #340404;
 }
 
+ .header-section h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+   
+
+}
+
+ .header-section #title {
+     text-transform: uppercase;
+     letter-spacing: 5px;
+ }
+
+
+
+.header-section a {
+    color: #6c0405;
+    text-decoration: none;
+}
+
+.header-section a:hover {
+    color: black;
+}
+.creative-illustration {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.creative-illustration #SAT-one {
+    width: 420px;
+}
+
+.creative-illustration #SAT-two {
+    width: 400px;
+}
+
+.description-section {
+    margin-bottom: 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.description-section #book-title {
+    font-style: italic;
+    font-weight: normal;
+    color: #340404;
+    
+}
+
+.description-section #creative-name {
+    color: #6c0405;
+}
 .content hr {
     border-width: 1px;
      background-color: #340404;
@@ -271,22 +327,44 @@
     }
 
     .titlepage h3 {
-        font-size: 20px;
+        font-size: 25px;
        justify-content: center;
        align-content: center;
        
     }
 
     .biography-button {
-        font-size: 10px;
+        margin-top: 50px;
+        font-size: 15px;
     }
     .biography-button p {
-     width: 60px;
+     width: 80px;
      }
 
-     .homevideo {
+    
+     .header-section h1 {
+         font-size: 30px;
+     }
+
+
+     .description-section {
+         font-size: 20px;
+     }
+
+     .creative-illustration {
+         flex-direction: column;
+         
+     }
+
+     .creative-illustration #SAT-one {
          width: 350px;
      }
+
+     .creative-illustration #SAT-two {
+         margin-top: 20px;
+         width: 350px;
+     }
+   
 
      .articles-collage .row{
      flex-direction: column;
@@ -309,9 +387,3 @@
      }
 }
 
-
-@media (max-width: 650px) {
-     .homevideo {
-         width: 300px;
-     }
-}
