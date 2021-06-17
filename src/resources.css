@@ -78,6 +78,8 @@
 .title #disclaimer {
     font-style: italic;
     margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+      color: #340404; 
 
     text-align: center;
 }
