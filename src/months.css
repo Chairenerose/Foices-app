@@ -294,8 +294,27 @@ hr {
     display: block;
 }
 
+.text-image #sociopoliticalmusic1 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmusic2 {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmusic3 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
 #disclaimer-sorority {
     text-align: center;
+    margin-bottom: 80px;
 }
 
 #text-header {

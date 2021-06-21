@@ -74,20 +74,20 @@
 }
 
 .articles-collage .row {
-    max-width: 700px;
+    max-width: 900px;
     margin-bottom: 50px;
 }
 
-.articles-collage .col-6 #image-beauty {
-    width: 250px;
+.articles-collage .col-6 img {
+    width: 300px;
     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
     
 }
 
-.articles-collage .col-6 #image-hyper {
-    height: 250px;
-    box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+#image-beauty {
+    margin-top: 30px;
 }
+
 
 .articles-collage h5 {
     width: 200px;

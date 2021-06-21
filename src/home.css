@@ -189,7 +189,7 @@
 }
 
 .articles-collage .row {
-   max-width: 600px;
+   max-width: 900px;
     margin-bottom: 50px;
     margin-top: 30px;
    
@@ -200,8 +200,14 @@
 }
 
 .articles-collage .col-6 img {
-    width: 250px;
+    width: 350px;
     box-shadow: rgb(179, 158, 158) 3px 3px 3px;
+    
+}
+
+ #image-pride {
+    height: 200px;
+   
     
 }
 

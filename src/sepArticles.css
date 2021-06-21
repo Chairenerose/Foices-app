@@ -183,6 +183,107 @@ hr {
     color: #fff;
 }
 
+.text-image #sociopoliticalmaluku {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmaluku2 {
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmaluku3 {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmaluku4 {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #introspect-jazz1 {
+    width: 400px;
+     margin: 0 auto;
+    display: block;
+}
+
+.text-image #introspect-jazz2 {
+    width: 400px;
+     margin: 0 auto;
+    display: block;
+}
+
+.text-image #introspect-jazz3 {
+    width: 500px;
+     margin: 0 auto;
+    display: block;
+}
+
+.text-image #introspect-pride1 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmusic1 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmusic2 {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #sociopoliticalmusic3 {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#disclaimer-sorority {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#text-header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.quote {
+    
+    font-style: italic;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.quote h4 {
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
 @media  (max-width: 800px) {
     .hamburger {
         display: flex;
