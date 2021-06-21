@@ -90,6 +90,11 @@
     
 }
 
+.month-cover #june {
+    width: 400px;
+    height: 500px;
+}
+
 .month-cover p {
     text-align: center;
     color: #340404;
