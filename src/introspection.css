@@ -114,6 +114,10 @@
     margin-left: 5px;
 }
 
+#reflectionIla {
+    margin-top: 10px;
+}
+
 @media  (max-width: 800px) {
     .hamburger {
         display: flex;
@@ -171,5 +175,9 @@
 
      .articles-collage .row .col-6{
         margin-bottom: 10px;
+     }
+
+     .articles-collage .col-6 img {
+         width: 350px;
      }
 }
