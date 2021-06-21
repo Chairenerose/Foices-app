@@ -76,16 +76,30 @@
 
 }
 
+.month-cover {
+    margin-bottom: 80px;
+}
+
 .month-cover img {
     width: 400px;
     height: 600px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    display: block;
+    display: block;   
     
+}
+
+.month-cover p {
+    text-align: center;
+    color: #340404;
+    font-family: 'Playfair Display', serif;
+}
+
+.month-cover a {
     
-    
+    color: #6c0405;
+    font-family: 'Playfair Display', serif;
 }
 
 .content-introspect #header {
