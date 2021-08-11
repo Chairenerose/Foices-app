@@ -138,6 +138,7 @@
     width: 50%;
 }
 
+
 .introspect-two {
     color: #340404;
 }
@@ -170,6 +171,31 @@
 .sociopolitical-two {
     color: #340404;
 }
+
+
+
+.content-popculture #header {
+    text-align: center;
+    color: #340404; 
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+
+popculture-one {
+    color: #340404;
+}
+
+.popculture-one h5 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 200px;
+    width: 50%;
+    margin-top: 40px;
+}
+
 
 #author-title {
     display: flex;
@@ -331,6 +357,36 @@ hr {
     display: block;
 }
 
+
+.text-image #polygamy-introspect {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #dating-pandemic-introspect {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.text-image #male-gaze-popculture1 {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #male-gaze-popculture2 {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
 #disclaimer-sorority {
     text-align: center;
     margin-bottom: 80px;
@@ -364,6 +420,21 @@ hr {
     font-size: 20px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media  (max-width: 800px) {
@@ -446,5 +517,22 @@ hr {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.text-image #polygamy-introspect {
+    width: 400px;
+}
+
+.text-image #dating-pandemic-introspect {
+    width: 400px;
+}
+
+.text-image #male-gaze-popculture1 {
+    width: 450px;
+}
+
+.text-image #male-gaze-popculture2 {
+    width: 450px;
+}
+
 
 }

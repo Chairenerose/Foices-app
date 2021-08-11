@@ -250,6 +250,31 @@ hr {
     display: block;
 }
 
+.text-image #polygamy-introspect {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #dating-pandemic-introspect {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.text-image #male-gaze-popculture1 {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-image #male-gaze-popculture2 {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
 #disclaimer-sorority {
     text-align: center;
     margin-bottom: 80px;
@@ -355,6 +380,22 @@ hr {
     .text-image #hypersex3 {
     width: 300px;
   
+    }
+
+    .text-image #polygamy-introspect {
+        width: 400px;
+    }
+    
+    .text-image #dating-pandemic-introspect {
+        width: 400px;
+    }
+    
+    .text-image #male-gaze-popculture1 {
+        width: 450px;
+    }
+    
+    .text-image #male-gaze-popculture2 {
+        width: 450px;
     }
     .content .title h1 {
         margin-bottom: 20px;

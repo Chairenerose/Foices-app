@@ -120,6 +120,7 @@
     color: #340404;
 }
 
+
  .header-section h1 {
     font-size: 40px;
     font-family: 'Playfair Display', serif;
@@ -146,19 +147,16 @@
 .creative-illustration {
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex;
     justify-content: center;
-    align-items: center;
+   
     
 }
 
-.creative-illustration #SAT-one {
-    width: 820px;
+
+.creative-illustration img {
+    width: 600px;
 }
 
-.creative-illustration #SAT-two {
-    width: 790px;
-}
 
 .description-section {
     margin-bottom: 80px;
@@ -167,16 +165,26 @@
     font-weight: lighter;
 }
 
-.description-section #book-title {
-    font-style: italic;
-    font-weight: normal;
-    color: #340404;
-    
+
+.description-section #discover-link {
+    color: #6c0405;
+    font-weight: bold;
+
 }
 
-.description-section #creative-name {
-    color: #6c0405;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content hr {
     border-width: 1px;
      background-color: #340404;
@@ -205,10 +213,9 @@
     
 }
 
- #image-pride {
-    height: 200px;
-   
-    
+  
+#image-dating-pandemic {
+    height: 300px;
 }
 
 .articles-collage .col-6 h5 {
@@ -358,18 +365,10 @@
          font-size: 20px;
      }
 
-     .creative-illustration {
-         flex-direction: column;
-         
-     }
+  
 
-     .creative-illustration #SAT-one {
-         width: 350px;
-     }
-
-     .creative-illustration #SAT-two {
-         margin-top: 20px;
-         width: 350px;
+     .creative-illustration img {
+         width: 500px;
      }
    
 
